@@ -20,6 +20,9 @@ export class SimpleLetters {
       Math.floor(Math.random() * this.letters.length)
     ];
   }
+  isLetter(letter: string, arr = this.fullArray) {
+    return arr.includes(letter);
+  }
 }
 
 export default SimpleLetters;

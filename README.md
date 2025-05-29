@@ -31,6 +31,11 @@ console.log(letters.random);       // "m"
 letters.letters = 'abc'
 console.log(letters.array);        // ['a', 'b', 'c']
 
+console.log(letters.isLetter('a')) //true, searches in full array by default
+
+console.log(letters.isLetter('a',letters.upperArray)) //false
+
+
 ```
 
 ### or if not using modules
